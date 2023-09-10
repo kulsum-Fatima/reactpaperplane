@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* #nav{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex: 1 !important;
+    width: 100vw !important;
+
+} */
+html{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav1{
+    flex-wrap: wrap !important;
+    width: 100vw auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 1 !important;
+    flex-basis: 50% !important;
+    display: flex !important;
+   
+    
+}
+
+/* .App{
+    display:flex !important;
+    width: 100vw !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex: 1 !important;
+} */
+
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: white !important;
+    
+}
+.css-7mt4h1-MuiInputBase-root{
+    background-color: rgb(182, 188, 193) !important;
+    
+}
+.css-1iz4iln{
+    color:white !important;
+    z-index: 1;
+}
+.css-8je8zh-MuiTouchRipple-root{
+    /* padding: 10px !important; */
+    /* margin-left: 10px !important; */
+}
+#id1{
+    background-color: rgb(89, 220, 176) !important;
+    /* color: rgb(90, 87, 87) !important; */
+}
+#id2{
+    margin-left: 10px !important;
+    color: rgb(90, 87, 87) !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    padding: 2px !important;
+    padding-bottom: 5px !important;
+}
+
+/* .newsubnav{
+ display: flex;
+ flex-wrap: wrap;
+} */
+
+.subnav1{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    width: 100vw auto;
+    /* height: 150px; */
+    height: 20vh auto;
+    background-color: aquamarine;
+    justify-content: center;
+   align-items: center;
+    /* flex-basis: 50%; */
+    flex: 1;
+    /* order: 1; */
+    /* color: rgb(82, 79, 79); */
+}
+.sub2{
+
+    /* padding-top: 40px; */
+    padding: 20px 0px;
+    font-family: sans-serif;
+    /* font-size: 40px; */
+    color: rgb(82, 79, 79);
+    /* flex-basis: 100%;
+    flex: 1;
+    order: 1;    */
+}
+#hr{
+    width: 80vw;
+    height: 0;
+    color: rgb(17, 16, 16);
+}
+.sub3{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    flex-basis: 50%;
+    
+}
+.sub4{
+    padding: 10px 40px;
+    /* border-right: 1px solid rgb(105, 104, 104); */
+}
+#bor1{
+    border-right: 1px solid rgb(105, 104, 104);
+}
+#bor2{
+    border-right: 1px solid rgb(105, 104, 104);
+}
+@media all and (max-width: 326px ) {
+    .html{
+        flex-wrap: wrap;
+    }
+
+}
+@media all and (min-width: 119px ){
+     .html{
+        flex-wrap: wrap;
+     }
+}
+/* .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+} */
